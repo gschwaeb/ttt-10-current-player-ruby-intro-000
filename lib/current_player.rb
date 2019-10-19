@@ -9,12 +9,12 @@ def turn_count (board)
 end
 
 
-#  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-#def current_player (board)
-#  if turn_count % 2 == 0
-  #  return "X"
-#  else
-#    return "O"
-#  end
-#end
+
+def current_player (board)
+    if turn_count % 2 == 0
+  return "X"
+  else
+    return "O"
+  end
+end
