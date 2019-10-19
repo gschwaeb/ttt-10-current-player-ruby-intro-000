@@ -1,9 +1,9 @@
 def turn_count (board)
-    #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     counter = 0
     turn_count.each do |boards|
-      if boards == "X" || "O"
+     boards == "X" || "O"
     counter += 1
   end
-end
+#end
 end
