@@ -1,4 +1,4 @@
-def turn_count (board1)
+def turn_count (board)
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     counter = 0
     board.each do |boards|
